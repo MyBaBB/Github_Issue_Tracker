@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  --darkblue-color: "#2B2D42";
+  --lightblue-color: "#8D99AE";
+  --light-color: "#EDF2F4";
+  --danger-color: "#D90429";
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 1.5em;
+}
+
+/* Navbar */
+.nav-mobile ul {
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.nav-mobile {
+  transition: all 0.5 ease-in-out;
+}
+
+/* jobIem-Container CSS */
+.jobcontainer {
+  display: grid;
+  gap: 2.5em;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#status {
+  justify-content: center;
+}
+
+#delete-btn {
+  cursor: pointer;
+}
+
+#delete-btn:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+#delete-btn svg {
+  color: red;
+  margin-right: 0.2rem;
+}
+
+.jobitem-icon {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.jobcontainer-grid {
+  margin-top: 5em;
+  width: 80%;
+}
+
+/* Error css */
+.error {
+  color: red;
+  margin: auto;
+}
+
+.footer-container {
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
