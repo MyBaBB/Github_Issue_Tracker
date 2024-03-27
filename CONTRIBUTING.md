@@ -1,6 +1,6 @@
 # 🤝 Contributing to GitHub Issue Tracker
 
-Thank you for considering contributing to **GitHub Issue Tracker**! I appreciate your interest and would like to hear your feedback. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/madina-tussupova/) if you have any ideas or *constructive* critique.
+Thank you for considering contributing to **GitHub Issue Tracker**! I appreciate your interest and would like to hear your feedback. Feel free to reach out to me  if you have any ideas or *constructive* critique.
 
 ## ✍️ How to Contribute?
 
