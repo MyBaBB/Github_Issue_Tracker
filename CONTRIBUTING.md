@@ -4,13 +4,7 @@ Thank you for considering contributing to **GitHub Issue Tracker**! I appreciate
 
 ## ✍️ How to Contribute?
 
-There are many ways you can contribute, including, but not limited to:
 
-- Improving documentation (even this guide, like [NalimWeso](https://github.com/NalimWeso)). 🤠
-- Refactoring styles.
-- Writing code.
-- Writing test (in progress).
-- Reporting bugs.
 
 ## ❗️ Rules
 
