@@ -59,7 +59,7 @@ function Navbar() {
           <img
             src={darkMode ? darkModeLogo : lightModeLogo}
             className="h-8"
-            alt="JobTrackr Logo"
+            alt="GitHub Issue Tracker Logo"
           />
           <span
             className="hidden self-center whitespace-nowrap text-2xl font-semibold text-blue-950

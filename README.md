@@ -1,6 +1,6 @@
-# 💼 [JobTrackr](https://job-trackr-00f2.onrender.com)
+# 💼 [GitHub Issue Tracker](https://mybabb.github.io/Github_Issue_Tracker/)
 
-**JobTrackr** is a user-friendly and efficient job application tracker designed to streamline your job search process.
+**GitHub Issue Tracker** is a user-friendly and efficient job application tracker designed to streamline your job search process.
 
 ## 📝 Documentation
 
@@ -16,7 +16,7 @@ The documentation is segmented into these sections:
 
 ## 👀 Description
 
-**JobTrackr** simplifies the task of managing your job applications by providing a convenient platform where you can input and track the jobs you've applied to. Say goodbye to scattered notes and disorganized spreadsheets – with **JobTrackr**, focus on securing your ideal job!
+**GitHub Issue Tracker** simplifies the task of managing your job applications by providing a convenient platform where you can input and track the jobs you've applied to. Say goodbye to scattered notes and disorganized spreadsheets – with **GitHub Issue Tracker**, focus on securing your ideal job!
 
 ## ✨ Features
 
@@ -24,18 +24,18 @@ The documentation is segmented into these sections:
 
 ## 🛠️ Installation
 
-To install **JobTrackr**, follow these steps:
+To install **GitHub Issue Tracker**, follow these steps:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/madina0801/JobTrackr.git
+    git clone https://github.com/MyBaBB/Github_Issue_Tracker
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd JobTrackr
+    cd GitHub Issue Tracker
     ```
 
 3. Install dependencies:
@@ -46,7 +46,7 @@ To install **JobTrackr**, follow these steps:
 
 ## 🚀 Usage
 
-To use **JobTrackr** locally, run the following command:
+To use **GitHub Issue Tracker** locally, run the following command:
 
 ```bash
 npm run dev
@@ -56,7 +56,7 @@ Now you should be able to access it at `localhost:5173`.
 
 ## 🤝 Contributing
 
-We welcome contributions to **JobTrackr**! While the project is still in its early stages, it will continue to grow and evolve with time.
+We welcome contributions to **GitHub Issue Tracker**! While the project is still in its early stages, it will continue to grow and evolve with time.
 
 For guidelines on contributing, please refer to [CONTRIBUTING.md](CONTRIBUTING.md). 🤗
 
@@ -69,9 +69,9 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 If you have any questions or suggestions, feel free to reach out:
 
 <p align="left">
-<a href="https://github.com/madina0801">
-  <img alt="GitHub" title="GitHub" src="https://img.shields.io/badge/madina0801-%23c9510c?style=for-the-badge&logo=github"/></a>
+# <a href="https://github.com/mybabb">
+#   <img alt="GitHub" title="GitHub" src="https://img.shields.io/badge/madina0801-%23c9510c?style=for-the-badge&logo=github"/></a>
 
-<a href="https://www.linkedin.com/in/madina-tussupova">
-  <img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/Madina%20Tussupova-%230077B5?style=for-the-badge&logo=linkedin&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmadina-tussupova"/></a>
-</p>
+# <a href="https://www.linkedin.com/in/madina-tussupova">
+#   <img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/Madina%20Tussupova-%230077B5?style=for-the-badge&logo=linkedin&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmadina-tussupova"/></a>
+# </p>
