@@ -89,9 +89,9 @@ function Navbar() {
         <div className="flex items-center">
           <div className="mr-4 hidden md:block">
             <ul
-              className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4
+              className="mt-4  flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4
        font-medium text-blue-950 dark:text-light md:mt-0 md:flex-row md:space-x-8 
-       md:border-0 md:bg-white md:p-0 rtl:space-x-reverse"
+       md:border-0 md:bg-white md:p-2 rtl:space-x-reverse"
             >
               <NavLink to="/">
                 <li className="hover:text-blue-200 dark:text-blue-950 dark:hover:text-blue-200">

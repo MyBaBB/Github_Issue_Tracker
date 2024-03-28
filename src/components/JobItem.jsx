@@ -23,7 +23,8 @@ function JobItem({ job, idx, setJobApplications }) {
 
   return (
     <div
-      className=" relative mb-4 w-[300px] rounded-lg border-2 border-blue-950 bg-gray-200 p-7 text-blue-950 shadow-xl shadow-blue-100
+      className=" relative mb-4 w-[300px] rounded-lg 
+      border-2 border-blue-950 bg-gray-200 p-7 text-blue-950 shadow-xl shadow-gray-950
      hover:shadow-green-400"
     >
       <div className="flex=row mb-7 ">
