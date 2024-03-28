@@ -15,7 +15,7 @@ The documentation is segmented into these sections:
 - [Contact](#%EF%B8%8F-contact)
 
 ## 👀 Description
-
+![image](./Readmeimage.jpg)
 **GitHub Issue Tracker** simplifies the task of managing your job applications by providing a convenient platform where you can input and track the jobs you've applied to. Say goodbye to scattered notes and disorganized spreadsheets – with **GitHub Issue Tracker**, focus on securing your ideal job!
 
 ## ✨ Features
