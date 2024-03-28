@@ -20,8 +20,9 @@ function App() {
          
           <Route exact path="/" element={<JobApp />} />
         </Routes>
-        <FaGithub />
+        
       </Router>
+      <FaGithub />
       <Footer />
     </div>
   );
