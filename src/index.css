@@ -10,7 +10,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
- 
+
   --darkblue-color: "#2B2D42";
   --lightblue-color: "#8D99AE";
   --light-color: "#EDF2F4";
@@ -93,4 +93,12 @@ h1 {
   color: white;
   padding: 1.5rem;
   text-align: center;
+}
+@font-face {
+  font-family: "Changa-VariableFont_wght";
+  src: url("GoogleFonts/Changa-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Changa-VariableFont_wght";
 }

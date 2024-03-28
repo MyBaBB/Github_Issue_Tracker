@@ -50,7 +50,7 @@ function JobForm({ onAddJob }) {
   };
 
   return (
-    <div className="justify-center flex  ">
+    <div className="flex justify-center  ">
       <form className="mt-5 w-full max-w-[screen] px-4" onSubmit={handleSubmit}>
         <div className="-mx-3 mb-6 flex flex-wrap">
           <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
@@ -61,7 +61,7 @@ function JobForm({ onAddJob }) {
               Repository:
             </label>
             <textarea
-               className=" block w-full max-h-[4rem] appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
+              className=" block max-h-[4rem] w-full appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
                text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
               id="Repository"
               type="text"
@@ -77,8 +77,8 @@ function JobForm({ onAddJob }) {
             >
               Duties:
             </label>
-            <textarea 
-              className=" block w-full max-h-[4rem] appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
+            <textarea
+              className=" block max-h-[4rem] w-full appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
       text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
               id="Duties"
               value={Duties}
@@ -120,11 +120,12 @@ function JobForm({ onAddJob }) {
                 onChange={(e) => setJobtype(e.target.value)}
               >
                 <option className="text-sm" value=""></option>
-                  Select
-               
-                <option value="Internship">Internship</option>
-                <option value="Part Time">Part time</option>
-                <option value="Full Time">Full time</option>
+                Select
+                <option value="HTML">Html</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Tailwind">Tailwind</option>
+                <option value="UI/UX">UI/UX</option>
+                <option value="Documentation">Documentation</option>
               </select>
 
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-blue-950">
@@ -139,21 +140,21 @@ function JobForm({ onAddJob }) {
               htmlFor="status"
             >
               {" "}
-              Status:
+             Experience Level:
             </label>
             <div className="relative">
               <select
                 className="block w-full appearance-none rounded border border-gray-200
         bg-gray-500 px-4 py-3 pr-8 leading-tight text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
-                id="status"
+                id="Experience Level"
                 onChange={(e) => setStatus(e.target.value)}
               >
                 <option value="">Select</option>
-                <option value="Applied">Applied</option>
-                <option value="Pending">Pending</option>
-                <option value="Interviewing">Interviewing</option>
-                <option value="Hired">Hired</option>
-                <option value="Rejected">Rejected</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Tough">Tough</option>
+                <option value="Hard">Hard</option>
+                <option value="Extreme">Extreme</option>
               </select>
 
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-blue-950">

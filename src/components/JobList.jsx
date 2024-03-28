@@ -14,7 +14,7 @@ function JobList({ jobApplications, setJobApplications }) {
     <div className="h-screen">
       {jobApplications.length > 0 && (
         <div className="mt-10 flex justify-center text-xl font-bold text-blue-950 dark:text-gray-200">
-          <h2 className="text-2xl">All Jobs</h2>
+          <h2 className="text-2xl">GitHub Repos</h2>
         </div>
       )}
       <div className="m-10 flex justify-center">
