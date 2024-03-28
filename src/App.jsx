@@ -17,14 +17,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/about" element={<About />} />
-         
           <Route exact path="/" element={<JobApp />} />
         </Routes>
-        
       </Router>
-      <div className="flex justify-center  ">
-        <FaGithub size={120} className="text-blue-500 dark:text-gray-200 bg-grey-500 dark:bg-blue-900 mb-10 " />
-      </div>
+      <a href="./components/JobForm.jsx">
+        <div className="flex justify-center">
+          <FaGithub size={140} className="text-blue-950 dark:text-gray-200 bg-gray-200  dark:bg-gray-600 mt-4 mb-10 
+          border-[3px] rounded-full border-blue-950  border-dotted  dark:border-gray-200 p-1 " />
+        </div>
+      </a>
       <Footer />
     </div>
   );

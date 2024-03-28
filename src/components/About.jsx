@@ -6,7 +6,7 @@ function About() {
       <article className="mt-[8rem] ">
       <GiStarSattelites
           size={50}
-          className="relative flex items-center m-o m-auto -mt-12 mb-4 animate-spin text-green-300"
+          className="relative flex items-center m-o m-auto -mt-20 mb-4 animate-spin text-green-300"
           style={{ animationDuration: "3000ms" }}
         />
       <h2 className="text-3xl underline decoration-green-500 font-semibold text-center">About Issue Tracker</h2>
