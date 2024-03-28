@@ -2,20 +2,22 @@ import { GiStarSattelites } from "react-icons/gi";
 
 function About() {
   return (
-    <div className="h- flex flex-col items-center bg-gray-500 pt-5 text-blue-900 dark:bg-blue-950 dark:text-gray-300">
-      <h2 className="text-xl font-semibold">About Issue Tracker</h2>
-      <p className="text-md mt-3 px-20 text-justify">
+    <div className=" flex flex-col items-center bg-gray-500 pt-5 text-black dark:bg-blue-950 dark:text-gray-300">
+      <article className="mt-[8rem] ">
+      <h2 className="text-3xl underline decoration-green-500 font-semibold text-center">About Issue Tracker</h2>
+      <p className="text-2xl mt-3 px-20 text-justify">
         A simple and effective application to keep track of GitHub issues that
         I&apos;ve applied for.
       </p>
-      <p className="text-md mt-3 text-center">
+      <p className="text-xl mt-3 text-center">
         Created with Productivity in Mind &nbsp;
         <GiStarSattelites
-          size={20}
-          className="inline-block animate-spin text-blue-800 dark:text-green-300"
+          size={30}
+          className="inline-block animate-spin text-green-300"
           style={{ animationDuration: "3000ms" }}
         />
       </p>
+      </article>
     </div>
   );
 }
