@@ -12,7 +12,7 @@ import "./index.css";
 function App() {
   const { t, i18n } = useTranslation;
   return (
-    <div className="min-h-dvh overflow-x-hidden dark:bg-blue-950">
+    <div className="min-h-dvh overflow-x-hidden bg-gray-500 dark:bg-blue-950">
       <Router>
         <Navbar />
         <Routes>

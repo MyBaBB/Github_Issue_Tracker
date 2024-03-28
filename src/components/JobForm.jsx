@@ -50,8 +50,8 @@ function JobForm({ onAddJob }) {
   };
 
   return (
-    <div className="flex justify-center">
-      <form className="mt-5 w-full max-w-lg" onSubmit={handleSubmit}>
+    <div className="justify-center flex  ">
+      <form className="mt-5 w-full max-w-[screen] px-4" onSubmit={handleSubmit}>
         <div className="-mx-3 mb-6 flex flex-wrap">
           <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
             <label
@@ -60,9 +60,9 @@ function JobForm({ onAddJob }) {
             >
               Repository:
             </label>
-            <input
-              className="mb-3 block w-full appearance-none rounded border 
-      bg-gray-500 px-4 py-3 leading-tight text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
+            <textarea
+               className=" block w-full max-h-[4rem] appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
+               text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
               id="Repository"
               type="text"
               value={Repository}
@@ -77,11 +77,10 @@ function JobForm({ onAddJob }) {
             >
               Duties:
             </label>
-            <input
-              className="block w-full appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
+            <textarea 
+              className=" block w-full max-h-[4rem] appearance-none rounded border border-gray-200 bg-gray-500 px-4 py-3 leading-tight 
       text-blue-950 focus:border-gray-500 focus:bg-white focus:outline-none"
               id="Duties"
-              type="text"
               value={Duties}
               onChange={(e) => setDuties(e.target.value)}
             />
@@ -120,9 +119,9 @@ function JobForm({ onAddJob }) {
                 id="type"
                 onChange={(e) => setJobtype(e.target.value)}
               >
-                <option className="text-sm" value="">
+                <option className="text-sm" value=""></option>
                   Select
-                </option>
+               
                 <option value="Internship">Internship</option>
                 <option value="Part Time">Part time</option>
                 <option value="Full Time">Full time</option>

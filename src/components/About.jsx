@@ -2,7 +2,7 @@ import { GiStarSattelites } from "react-icons/gi";
 
 function About() {
   return (
-    <div className="flex h-screen flex-col items-center bg-gray-500 pt-5 text-blue-900 dark:bg-blue-950 dark:text-gray-300">
+    <div className="flex h- flex-col items-center bg-gray-500 pt-5 text-blue-900 dark:bg-blue-950 dark:text-gray-300">
       <h2 className="text-xl font-semibold">About Issue Tracker</h2>
       <p className="text-md mt-3 px-20 text-justify">
         A simple and effective application to keep track of GitHub issues that

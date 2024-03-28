@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
   IoTrashBin,
   IoPersonSharp,
@@ -25,25 +26,25 @@ function JobItem({ job, idx, setJobApplications }) {
 
   return (
     <div
-      className=" w-fit rounded-lg border border-blue-950 bg-gray-200 p-7 text-blue-950 shadow-xl shadow-blue-100
-     hover:shadow-green-400"
+      className=" w-[300px] relative mb-4 rounded-lg border-2 border-blue-950 bg-gray-200 p-7 text-blue-950 shadow-xl shadow-blue-100
+     hover:shadow-green-400" 
     >
-      <div className="mb-7 flex space-x-7">
-        <div className="flex items-center text-sm">
+      <div className="mb-7 flex=row ">
+        <div className="flex items-center text-sm ">
           <div>
             <IoPersonSharp className="mr-1 h-6 w-6" />
           </div>
-          <span className="">{job.Duties}</span>
+          <span className="break-all  ">{job.Duties}</span>
         </div>
-
+ <hr  className="w-[85%]  h-[7px]  ml-[2rem] my-[.35rem] bg-slate-600 items-center m-auto border-[.2px] rounded-3xl border-green-400 "/>
         <div className="flex items-center text-sm">
           <div>
             <FaRegBuilding className="mr-1 h-6 w-6 " />
           </div>
-          <span>{job.Repository}</span>
+          <span className="break-all">{job.Repository}</span>
         </div>
 
-        <div id="delete-btn" className="text-sm">
+        <div id="delete-btn" className="text-sm absolute top-2 right-4">
           <span onClick={handleDeleteJob}>
             <IoTrashBin className="mr-1 h-6 w-6" />
           </span>
