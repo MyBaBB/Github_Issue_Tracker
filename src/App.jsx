@@ -22,8 +22,8 @@ function App() {
         </Routes>
         
       </Router>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <FaGithub size={50} className="text-blue-500 dark:text-gray-200 bg-grey-500 dark:bg-blue-900 mb-10 " />
+      <div className="flex justify-center  ">
+        <FaGithub size={120} className="text-blue-500 dark:text-gray-200 bg-grey-500 dark:bg-blue-900 mb-10 " />
       </div>
       <Footer />
     </div>
