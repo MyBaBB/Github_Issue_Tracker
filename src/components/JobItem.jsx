@@ -76,7 +76,7 @@ function JobItem({ job, idx, setJobApplications }) {
       <div className="mt-4"></div>
     <div className="mt-4">
       <textarea
-        className="w-full text-white h-20 p-2 border-2 border-gray-300 rounded-lg"
+        className="w-full bg-amber-950  text-white h-20 p-2 border-2 border-gray-300 rounded-lg"
         placeholder="Add a note..."
         value={job.note}
         onChange={(e) => {

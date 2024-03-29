@@ -20,12 +20,12 @@ function App() {
           <Route exact path="/" element={<JobApp />} />
         </Routes>
       </Router>
-      <a href="components/About.jsx">
+      
         <div className="flex justify-center">
           <FaGithub size={140} className="text-blue-950 dark:text-gray-200 bg-gray-200  dark:bg-gray-600 mt-4 mb-10 
           border-[3px] rounded-full border-blue-950  border-dotted  dark:border-gray-200 p-1 " />
         </div>
-      </a>
+     
       <Footer />
     </div>
   );
