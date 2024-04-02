@@ -1,6 +1,6 @@
 # 💼 [GitHub Issue Tracker](https://mybabb.github.io/Github_Issue_Tracker/)
 
-**GitHub Issue Tracker** is a user-friendly and efficient job application tracker designed to streamline your job search process.
+**GitHub Issue Tracker** is a user-friendly and efficient GitHub Issue Tracker for you Mobile Device or Desktop, designed to streamline your search process and take notes about it.
 
 ## 📝 Documentation
 
@@ -64,7 +64,7 @@ For guidelines on contributing, please refer to [CONTRIBUTING.md](CONTRIBUTING.m
 
 This project is licensed under the terms of the [MIT License](LICENSE).
 
-## ☎️ Contact
+ 
 
 If you have any questions or suggestions, feel free to reach out:
 
