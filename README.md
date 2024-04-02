@@ -1,3 +1,6 @@
+
+<!-- Note to self  npm run deploy for gh-pages -->
+
 # 💼 [GitHub Issue Tracker](https://mybabb.github.io/Github_Issue_Tracker/)
 
 **GitHub Issue Tracker** is a user-friendly and efficient GitHub Issue Tracker for you Mobile Device or Desktop, designed to streamline your search process and take notes about it.
