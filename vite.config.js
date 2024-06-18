@@ -8,13 +8,13 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
-        "name": "Issue Tracker",
-        "short_name": "Issue Tracker",
-        "theme_color": "#17191a",
-        "background_color": "#17191a",
-        "display": "standalone",
-        "scope": "/",
-        "start_url": "./"},
+        "name":"Issue tracker",
+        "short_name":"Tracker",
+        "start_url":"./",
+        "display":"standalone",
+        "background_color":"#2a61a1",
+        "lang":"en","scope":"./",
+      },
         icons: [
           
           {
