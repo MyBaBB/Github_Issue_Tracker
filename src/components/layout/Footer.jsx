@@ -1,5 +1,5 @@
 import { TbBrandGithubFilled } from "react-icons/tb";
-
+import WebApp from "../PWAFolder/WebApp";
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
      text-gray-200  dark:bg-gray-500 dark:text-blue-950">
       
        GitHub 2024 &copy; Brett Baker&nbsp;
-
+<div className="relative  -top-[3.7rem]  z-[400]">< WebApp /></div>
        <TbBrandGithubFilled size={25} className="absolute bottom-1 left-8 inline-block text-blue-400" />&nbsp;
        <TbBrandGithubFilled size={25} className="absolute bottom-1 right-8 inline-block text-blue-400" />
     </footer>

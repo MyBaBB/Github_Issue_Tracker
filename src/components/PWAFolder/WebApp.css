@@ -1,0 +1,19 @@
+.installApp {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #000000;
+  background-color: blueviolet;
+}
+.installButton:hover {
+  color: greenyellow;
+  background-color: black;
+}
+.installButton {
+  text-shadow: 1px 1px 2px #000000;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #286e8f;
+  padding: 3px;
+  box-shadow: 1px 1px 4px #0c0e08;
+  margin-top: 4px;
+}
