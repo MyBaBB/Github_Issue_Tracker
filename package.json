@@ -5,9 +5,9 @@
   "homepage": "https://mybabb.github.io/Github_Issue_Tracker",
   "type": "module",
   "scripts": {
-    "predeploy":  "npm run build",
-    "deploy":  "gh-pages -d dist",
-    "start":  "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -40,6 +40,7 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-pwa": "^0.20.0"
   }
 }

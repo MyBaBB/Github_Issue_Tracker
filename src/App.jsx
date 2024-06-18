@@ -10,7 +10,7 @@ import Footer from "./components/layout/Footer";
 import "./index.css";
 
 function App() {
-  const { t, i18n } = useTranslation;
+  
   return (
     <div className="min-h-dvh overflow-x-hidden bg-gray-500 dark:bg-blue-950">
       <Router>
