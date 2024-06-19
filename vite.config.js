@@ -18,7 +18,7 @@ export default defineConfig({
         "short_name":"Tracker",
         "start_url":"./",
         "display":"standalone",
-        "background_color":"#2a61a1",
+        "background_color":"#265370",
         "lang":"en","scope":"./",
         "icons":[
           {
