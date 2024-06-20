@@ -127,7 +127,7 @@ function JobForm({ onAddJob }) {
                 <option value="JavaScript">JavaScript</option>
                 <option value="Tailwind">Tailwind</option>
                 <option value="UI/UX">UI/UX</option>
-                <option value="Documentation">Documentation</option>
+                <option value="Doc Style">Doc Style</option>
               </select>
 
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-black">
