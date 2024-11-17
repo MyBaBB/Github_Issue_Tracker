@@ -26,7 +26,7 @@ const InstallApp = () => {
           <button
             id="installApp"
             onClick={handleClick}
-            className="installButton mb-1 font-Changa-Regular text-[12px]"
+            className="installButton mb-1 font-Changa-Regular text-[12px] dark:text-white"
           >
             Android/Desk App
           </button>
@@ -42,7 +42,7 @@ const InstallApp = () => {
             <button
               id="installApp"
               onClick={handleClick}
-              className="installButton mb-1 font-Changa-Regular text-[12px]"
+              className="installButton mb-1 font-Changa-Regular text-[12px] dark:text-white"
             >
               IPhone Instructions
             </button>
